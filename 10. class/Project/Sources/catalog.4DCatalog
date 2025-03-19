@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="10" uuid="E64F9A3A7B4F4F01B8915822C93B7A37" collation_locale="ja">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Person" uuid="F020DC710FA4442DA6056A6D366B12AB" id="1">
+		<field name="Id" uuid="16E124BB18B84D5CABBC0C5D85EB833D" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="email" uuid="D3E3EE68F00A49279D1A3A417EAD384E" type="10" limiting_length="255" id="2"/>
+		<field name="firstname" uuid="88623E14E75946139C73CE87BB26C0B2" type="10" limiting_length="255" id="3"/>
+		<field name="lastname" uuid="D62DAD4DC6DA4324B88174F494C84A23" type="10" limiting_length="255" id="4"/>
+		<primary_key field_name="Id" field_uuid="16E124BB18B84D5CABBC0C5D85EB833D"/>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="0E7F7A3834C64DA092C54CD5B47F23AE" type="7">
+		<field_ref uuid="16E124BB18B84D5CABBC0C5D85EB833D" name="Id">
+			<table_ref uuid="F020DC710FA4442DA6056A6D366B12AB" name="Person"/>
+		</field_ref>
+	</index>
+	<base_extra>
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>

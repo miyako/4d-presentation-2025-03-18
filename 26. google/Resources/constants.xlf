@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xliff version="1.0" xmlns:d4="http://www.4d.com/d4-ns">
+<header>
+    <note>Gmail</note>
+</header>
+<group resname="themes">
+    <trans-unit id="491641461D064717B2EDD3B69F51BA2C" resname="491641461D064717B2EDD3B69F51BA2C" translate="no">
+        <source>Gmail</source>
+    </trans-unit>
+</group>
+  <group restype="x-4DK#" d4:groupName="491641461D064717B2EDD3B69F51BA2C">
+    <trans-unit d4:value="{client_id}.apps.googleusercontent.com" id="491641461D064717B2EDD3B69F51BA2C.101">
+      <source>Gmail client_id</source>
+    </trans-unit>
+    <trans-unit d4:value="GOCSPX-{client_secret}" id="491641461D064717B2EDD3B69F51BA2C.102">
+      <source>Gmail client_secret</source>
+    </trans-unit>
+  </group>
+
+</xliff>

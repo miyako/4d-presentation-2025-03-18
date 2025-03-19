@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <file datatype="x-STR#" original="undefined" product-version="v20" source-language="en-US" target-language="ja">
+    <header>
+      <note/>
+    </header>
+    <body>
+
+        <!-- Work Area -->
+<group resname="[ProjectForm]">
+<group resname="HDI">
+<trans-unit id="1" resname="BtnDemo">
+<source>Demo</source>
+<target>スタート</target>
+</trans-unit>
+<trans-unit id="2" resname="TxtVersion">
+<source>{version} and above</source>
+<target>{version} 以降...</target>
+</trans-unit>
+<trans-unit id="3" resname="labelVersion">
+<source>Version:</source>
+<target>バージョン:</target>
+</trans-unit>
+<trans-unit id="4" resname="labelBlog">
+<source>Blog:</source>
+<target>Blog:</target>
+</trans-unit>
+<trans-unit id="5" resname="labelInfo">
+<source>Info:</source>
+<target>概要:</target>
+</trans-unit>
+<trans-unit id="6" resname="txtTitle">
+<source>• title •</source>
+<target>• title •</target>
+</trans-unit>
+<trans-unit id="7" resname="Text">
+<source>How do I…</source>
+<target>どうやって...</target>
+</trans-unit>
+<trans-unit id="8" resname="ErrorMainText">
+<source>Sorry, this "How do I" (HDI) example must
+be used with a newer version of 4D
+({version} and above)</source>
+<target>申し訳ありません。この"How do I..." (HDI) サンプルは、より新しいバージョンの4D（{version} 以降）で開く必要があります。</target>
+</trans-unit>
+<trans-unit id="9" resname="ErrorSubText">
+<source>Do not attempt to open this HDI in design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+<target>このHDIをデザインモードで開かないでください。
+開いてしまった場合、フォームやメソッドが不完全になってしまう恐れがあります。</target>
+</trans-unit>
+</group>
+<group resname="HDI2">
+<trans-unit id="1" resname="stats1">
+<source>Document stats:</source>
+<target>ドキュメント構成:</target>
+</trans-unit>
+<trans-unit id="2" resname="Button">
+<source>Delete section 1</source>
+<target>セクション 1 を削除</target>
+</trans-unit>
+<trans-unit id="3" resname="Button1">
+<source>Delete section 2</source>
+<target>セクション 2 を削除</target>
+</trans-unit>
+<trans-unit id="4" resname="Button2">
+<source>Delete section 3</source>
+<target>セクション 3 を削除</target>
+</trans-unit>
+<trans-unit id="5" resname="Button3">
+<source>Reload original</source>
+<target>もとに戻す</target>
+</trans-unit>
+<trans-unit id="6" resname="Check Box">
+<source>Trace code</source>
+<target>トレース</target>
+</trans-unit>
+<trans-unit id="7" resname="Button12">
+<source>Delete "First page"</source>
+<target>"最初のページ" を削除</target>
+</trans-unit>
+<trans-unit id="8" resname="Button13">
+<source>Delete "Left/Right" pages</source>
+<target>"左ページ/右ページ" を削除</target>
+</trans-unit>
+<trans-unit id="9" resname="Button14">
+<source>Reload original</source>
+<target>もとに戻す</target>
+</trans-unit>
+<trans-unit id="10" resname="Button4">
+<source>Reset section 1</source>
+<target>セクション 1 をリセット</target>
+</trans-unit>
+<trans-unit id="11" resname="Button5">
+<source>Reset section 2</source>
+<target>セクション 2 をリセット</target>
+</trans-unit>
+<trans-unit id="12" resname="Button6">
+<source>Reset section 3</source>
+<target>セクション 3 をリセット</target>
+</trans-unit>
+<trans-unit id="13" resname="Button7">
+<source>Reload original</source>
+<target>もとに戻す</target>
+</trans-unit>
+<trans-unit id="14" resname="Button8">
+<source>Reset first page</source>
+<target>最初のページをリセット</target>
+</trans-unit>
+<trans-unit id="15" resname="Button9">
+<source>Reset right page</source>
+<target>右ページをリセット</target>
+</trans-unit>
+<trans-unit id="16" resname="Button10">
+<source>Reset left page</source>
+<target>左ページをリセット</target>
+</trans-unit>
+<trans-unit id="17" resname="Button11">
+<source>Reload original</source>
+<target>もとに戻す</target>
+</trans-unit>
+</group>
+</group>
+
+
+    </body>
+  </file>
+</xliff>

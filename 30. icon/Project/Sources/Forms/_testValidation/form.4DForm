@@ -1,0 +1,88 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Bouton": {
+					"type": "button",
+					"text": "Button",
+					"top": 28,
+					"left": 297,
+					"width": 157,
+					"height": 38,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Bouton.4dm"
+				},
+				"Popup Liste déroulante": {
+					"type": "dropdown",
+					"left": 24,
+					"top": 28,
+					"width": 241,
+					"height": 38,
+					"events": [
+						"onDataChange"
+					],
+					"choiceList": [
+						"icon",
+						"clear_image_file",
+						"emptyIcon",
+						"file",
+						"file_emptyIcon",
+						"file_icon",
+						"icon_incorrectFile",
+						"incorrectFile",
+						"folder",
+						"folder_emptyIcon",
+						"folder_icon",
+						"icon_incorrectFolder",
+						"incorrectFolder"
+					],
+					"dataSource": "Form:C1466.text"
+				}
+			}
+		}
+	],
+	"geometryStamp": 23,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

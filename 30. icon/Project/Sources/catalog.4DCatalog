@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="30" uuid="2D4F6103DC084198BFC0283C03D0A0B2" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="INFO" uuid="107A367EBCC346259FD971E8FC1097DA" id="1">
+		<field name="ID" uuid="C6DBB917EEE44AF9BDA57ABA22C55C6B" type="4" unique="true" autosequence="true" not_null="true" id="1">
+			<field_extra position="1"/>
+		</field>
+		<field name="Description" uuid="C9EFE648E9234AADA33FB25D61C0190B" type="10" never_null="true" id="2">
+			<field_extra position="4"/>
+		</field>
+		<field name="TabTitle" uuid="58AF214936C941439CB263026A5B46ED" type="10" limiting_length="255" never_null="true" id="3">
+			<field_extra position="3"/>
+		</field>
+		<field name="PageNumber" uuid="A2D86BBFD5134D06999CBDD14FD07A27" type="4" never_null="true" id="4">
+			<field_extra position="2"/>
+		</field>
+		<primary_key field_name="ID" field_uuid="C6DBB917EEE44AF9BDA57ABA22C55C6B"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info fields_ordering="2" displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="0" top="0" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Product" uuid="DFAB26EDE9B94051BF54125E13616C3D" id="2">
+		<field name="ID" uuid="03261CF615FE4B629CD7C25FA1A4E0FF" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Name" uuid="6D5D05D3FE024AF0A20A74E7ABDE8CB6" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Description" uuid="0B947D89AC1D4487837450464A2970F2" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Price" uuid="B1DEF3AF93C2477B9AA93E40B7F7B298" type="4" never_null="true" id="4"/>
+		<primary_key field_name="ID" field_uuid="03261CF615FE4B629CD7C25FA1A4E0FF"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="240" top="40" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Contact" uuid="484E708F521C4284A572830ADB3A0F0D" id="3">
+		<field name="ID" uuid="329B6AEEB67D48F783AB6E6DB6EF78EF" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Lastname" uuid="40527BFB5E0E41588083806E72F145A6" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Firstname" uuid="556D0147C7F74971B6FB696497F38906" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Email" uuid="D2200D49FAA74DCFA00C3EF507B07D59" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="Phone" uuid="98740C7D874D4AA59AB3E9E1E2AB9F4C" type="10" limiting_length="255" never_null="true" id="5"/>
+		<primary_key field_name="ID" field_uuid="329B6AEEB67D48F783AB6E6DB6EF78EF"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="440" top="40" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="5514F562B52641BAA9661299E1211EB7" type="7">
+		<field_ref uuid="329B6AEEB67D48F783AB6E6DB6EF78EF" name="ID">
+			<table_ref uuid="484E708F521C4284A572830ADB3A0F0D" name="Contact"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="A5CC4EC5244646B7A11ABD1E3D85282C" type="7">
+		<field_ref uuid="03261CF615FE4B629CD7C25FA1A4E0FF" name="ID">
+			<table_ref uuid="DFAB26EDE9B94051BF54125E13616C3D" name="Product"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="B17E3BF54450493DB72FBD48A5745784" type="7">
+		<field_ref uuid="C6DBB917EEE44AF9BDA57ABA22C55C6B" name="ID">
+			<table_ref uuid="107A367EBCC346259FD971E8FC1097DA" name="INFO"/>
+		</field_ref>
+	</index>
+	<base_extra package_name="30" structure_file_name="30" data_file_path=":data.4DD">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>

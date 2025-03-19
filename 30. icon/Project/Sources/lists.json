@@ -1,0 +1,62 @@
+{
+	"Form": {
+		"editable": false,
+		"items": [
+			{
+				"text": "Contact",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Product",
+				"ref": 2,
+				"editable": true
+			}
+		]
+	},
+	"Icon": {
+		"editable": false,
+		"items": [
+			{
+				"text": "None",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "User",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Product",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Building",
+				"ref": 4,
+				"editable": false
+			}
+		]
+	},
+	"File": {
+		"editable": false,
+		"items": [
+			{
+				"text": "None",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "User",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Product",
+				"ref": 3,
+				"editable": true
+			}
+		]
+	}
+}

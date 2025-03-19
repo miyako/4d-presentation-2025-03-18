@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <file datatype="x-STR#" original="undefined" product-version="v20" source-language="en-US" target-language="ja">
+    <header>
+      <note/>
+    </header>
+    <body>
+
+        <!-- Work Area -->
+<group resname="[ProjectForm]">
+<group resname="HDI">
+<trans-unit id="1" resname="BtnDemo">
+<source>Demo</source>
+<target>スタート</target>
+</trans-unit>
+<trans-unit id="2" resname="TxtVersion">
+<source>{version} and above</source>
+<target>{version} 以降...</target>
+</trans-unit>
+<trans-unit id="3" resname="labelVersion">
+<source>Version:</source>
+<target>バージョン:</target>
+</trans-unit>
+<trans-unit id="4" resname="labelBlog">
+<source>Blog:</source>
+<target>Blog:</target>
+</trans-unit>
+<trans-unit id="5" resname="labelInfo">
+<source>Info:</source>
+<target>概要:</target>
+</trans-unit>
+<trans-unit id="6" resname="txtTitle">
+<source>• title •</source>
+<target>• title •</target>
+</trans-unit>
+<trans-unit id="7" resname="Text">
+<source>How do I…</source>
+<target>どうやって...</target>
+</trans-unit>
+<trans-unit id="8" resname="ErrorMainText">
+<source>Sorry, this "How do I" (HDI) example must
+be used with a newer version of 4D
+({version} and above)</source>
+<target>申し訳ありません。この"How do I..." (HDI) サンプルは、より新しいバージョンの4D（{version} 以降）で開く必要があります。</target>
+</trans-unit>
+<trans-unit id="9" resname="ErrorSubText">
+<source>Do not attempt to open this HDI in design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+<target>このHDIをデザインモードで開かないでください。
+開いてしまった場合、フォームやメソッドが不完全になってしまう恐れがあります。</target>
+</trans-unit>
+</group>
+<group resname="HDI2">
+<trans-unit id="1" resname="Button11">
+<source>Demo</source>
+<target>デモ</target>
+</trans-unit>
+<trans-unit id="2" resname="Text">
+<source>Page mode</source>
+<target>ビューモード (pageMode)</target>
+</trans-unit>
+<trans-unit id="3" resname="Check Box1">
+<source>visibleHorizontalRuler</source>
+<target>visibleHorizontalRuler</target>
+</trans-unit>
+<trans-unit id="4" resname="Check Box2">
+<source>visibleVerticalRuler</source>
+<target>visibleVerticalRuler</target>
+</trans-unit>
+<trans-unit id="5" resname="Check Box3">
+<source>visibleFooters</source>
+<target>visibleFooters</target>
+</trans-unit>
+<trans-unit id="6" resname="Check Box4">
+<source>visibleHeaders</source>
+<target>visibleHeaders</target>
+</trans-unit>
+<trans-unit id="7" resname="Check Box5">
+<source>visiblePageFrames</source>
+<target>visiblePageFrames</target>
+</trans-unit>
+<trans-unit id="8" resname="Check Box6">
+<source>visibleHiddenChars</source>
+<target>visibleHiddenChars</target>
+</trans-unit>
+<trans-unit id="9" resname="Check Box7">
+<source>displayFormulaAsSymbol</source>
+<target>displayFormulaAsSymbol</target>
+</trans-unit>
+<trans-unit id="10" resname="Button">
+<source>formulaHighlight?value=values</source>
+<target>formulaHighlight?value=values</target>
+</trans-unit>
+<trans-unit id="11" resname="Button1">
+<source>formulaHighlight?value=references</source>
+<target>formulaHighlight?value=references</target>
+</trans-unit>
+<trans-unit id="12" resname="Button2">
+<source>formulaHighlight?value=always</source>
+<target>formulaHighlight?value=always</target>
+</trans-unit>
+<trans-unit id="13" resname="Button3">
+<source>formulaHighlight?value=never</source>
+<target>formulaHighlight?value=never</target>
+</trans-unit>
+<trans-unit id="14" resname="Button4">
+<source>formulaHighlightColor?value=pink</source>
+<target>formulaHighlightColor?value=pink</target>
+</trans-unit>
+<trans-unit id="15" resname="Button5">
+<source>formulaHighlightColor?value=#202020</source>
+<target>formulaHighlightColor?value=#202020</target>
+</trans-unit>
+<trans-unit id="16" resname="Button6">
+<source>pageMode?value=embedded</source>
+<target>pageMode?value=embedded</target>
+</trans-unit>
+<trans-unit id="17" resname="Button7">
+<source>pageMode?value=page</source>
+<target>pageMode?value=page</target>
+</trans-unit>
+<trans-unit id="18" resname="Button8">
+<source>pageMode?value=draft</source>
+<target>pageMode?value=draft</target>
+</trans-unit>
+<trans-unit id="19" resname="Text1">
+<source>(Available only when pageMode = page</source>
+<target>(pageMode = page のときにのみ利用可能)</target>
+</trans-unit>
+<trans-unit id="20" resname="Text2">
+<source>Rulers</source>
+<target>ルーラー</target>
+</trans-unit>
+<trans-unit id="21" resname="Text3">
+<source>Headers ＆ footers</source>
+<target>ヘッダー ＆ フッター</target>
+</trans-unit>
+<trans-unit id="22" resname="Check Box8">
+<source>visibleBackground</source>
+<target>visibleBackground</target>
+</trans-unit>
+<trans-unit id="23" resname="Text4">
+<source>Visibility</source>
+<target>表示状態</target>
+</trans-unit>
+<trans-unit id="24" resname="Text5">
+<source>(background, anchored pictures and text boxes)</source>
+<target>(背景、アンカーされた画像とテキストボックス)</target>
+</trans-unit>
+<trans-unit id="25" resname="Check Box9">
+<source>visibleEmptyImages</source>
+<target>visibleEmptyImages</target>
+</trans-unit>
+<trans-unit id="26" resname="Text6">
+<source>Formulas highlight</source>
+<target>フォーミュラーのハイライト</target>
+</trans-unit>
+<trans-unit id="27" resname="Text7">
+<source>Zoom ＆ DPI</source>
+<target>ズーム ＆ DPI</target>
+</trans-unit>
+<trans-unit id="28" resname="Check Box10">
+<source>htmlWYSIWIGEnabled</source>
+<target>htmlWYSIWIGEnabled</target>
+</trans-unit>
+<trans-unit id="29" resname="Text8">
+<source>HTML</source>
+<target>HTML</target>
+</trans-unit>
+<trans-unit id="30" resname="Button9">
+<source>dpi?value=auto</source>
+<target>dpi?value=auto</target>
+</trans-unit>
+<trans-unit id="31" resname="Button10">
+<source>All view options as a menu ▼</source>
+<target>メニュー形式の全表示オプション ▼</target>
+</trans-unit>
+<trans-unit id="32" resname="Text9">
+<source>Formulas</source>
+<target>フォーミュラ</target>
+</trans-unit>
+<trans-unit id="33" resname="Check Box11">
+<source>visiblereferences</source>
+<target>visiblereferences</target>
+</trans-unit>
+<trans-unit id="34" resname="Text10">
+<source>Formulas highlight color</source>
+<target>フォーミュラーのハイライト色</target>
+</trans-unit>
+<trans-unit id="35" resname="Check Box12">
+<source>visibleTableBorders (20 R7 and and above)</source>
+<target>visibleTableBorders (20 R7 以上)</target>
+</trans-unit>
+</group>
+</group>
+
+
+    </body>
+  </file>
+</xliff>

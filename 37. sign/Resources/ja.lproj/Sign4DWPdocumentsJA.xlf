@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="http://www.w3.org/1999/xhtml" version="1.0">
+  <file datatype="x-STR#" original="undefined" product-version="v20" source-language="en-US" target-language="ja">
+    <header>
+      <note/>
+    </header>
+    <body>
+
+        <!-- Work Area -->
+<group resname="[ProjectForm]">
+<group resname="HDI">
+<trans-unit id="1" resname="BtnDemo">
+<source>Demo</source>
+<target>スタート</target>
+</trans-unit>
+<trans-unit id="2" resname="TxtVersion">
+<source>{version} and above</source>
+<target>{version} 以降...</target>
+</trans-unit>
+<trans-unit id="3" resname="labelVersion">
+<source>Version:</source>
+<target>バージョン:</target>
+</trans-unit>
+<trans-unit id="4" resname="labelBlog">
+<source>Blog:</source>
+<target>Blog:</target>
+</trans-unit>
+<trans-unit id="5" resname="labelInfo">
+<source>Info:</source>
+<target>概要:</target>
+</trans-unit>
+<trans-unit id="6" resname="txtTitle">
+<source>• title •</source>
+<target>• title •</target>
+</trans-unit>
+<trans-unit id="7" resname="Text">
+<source>How do I…</source>
+<target>どうやって...</target>
+</trans-unit>
+<trans-unit id="8" resname="ErrorMainText">
+<source>Sorry, this "How do I" (HDI) example must
+be used with a newer version of 4D
+({version} and above)</source>
+<target>申し訳ありません。この"How do I..." (HDI) サンプルは、より新しいバージョンの4D（{version} 以降）で開く必要があります。</target>
+</trans-unit>
+<trans-unit id="9" resname="ErrorSubText">
+<source>Do not attempt to open this HDI in design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+<target>このHDIをデザインモードで開かないでください。
+開いてしまった場合、フォームやメソッドが不完全になってしまう恐れがあります。</target>
+</trans-unit>
+</group>
+<group resname="HDI2">
+<trans-unit id="1" resname="btnTrace">
+<source>Trace code</source>
+<target>トレース</target>
+</trans-unit>
+<trans-unit id="2" resname="signed.Btn_Load">
+<source>Check signature</source>
+<target>署名を確認する</target>
+</trans-unit>
+<trans-unit id="3" resname="Btn_Load1">
+<source>Unsign saved document</source>
+<target>または、保存ドキュメントの署名を削除する</target>
+</trans-unit>
+<trans-unit id="4" resname="signed.btn_loadReference1">
+<source>Reload document (without signature checking)</source>
+<target>ドキュメントをリロードする (署名チェックなし)</target>
+</trans-unit>
+<trans-unit id="5" resname="btn_SaveAndSign">
+<source>Save and Sign Document</source>
+<target>ドキュメントを保存して署名する</target>
+</trans-unit>
+<trans-unit id="6" resname="btn_generateKeys">
+<source>Generate security keys\(ONE TIME setup!)</source>
+<target>暗号鍵を生成する\(一回のみおこないます!)</target>
+</trans-unit>
+<trans-unit id="7" resname="btn_SaveAndSign3">
+<source>Save without signing</source>
+<target>署名せずに保存する</target>
+</trans-unit>
+<trans-unit id="8" resname="btn_SaveAndSign4">
+<source>Save with an invalid signature</source>
+<target>または、不正な署名で保存する</target>
+</trans-unit>
+<trans-unit id="9" resname="btn_SaveAndSign5">
+<source>Modify doc after signing</source>
+<target>署名後にドキュメントを改変する</target>
+</trans-unit>
+<trans-unit id="13" resname="apple.open_information_window.scpt">
+<source>Show Info</source>
+<target>情報を見る</target>
+</trans-unit>
+<trans-unit id="10" resname="Text">
+<source>1</source>
+<target>1</target>
+</trans-unit>
+<trans-unit id="11" resname="Text1">
+<source>2</source>
+<target>2</target>
+</trans-unit>
+<trans-unit id="12" resname="Text2">
+<source>3</source>
+<target>3</target>
+</trans-unit>
+</group>
+</group>
+
+
+    </body>
+  </file>
+</xliff>

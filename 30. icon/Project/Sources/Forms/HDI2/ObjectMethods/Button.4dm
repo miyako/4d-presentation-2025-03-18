@@ -1,0 +1,2 @@
+CloseWindows
+OpenWindows

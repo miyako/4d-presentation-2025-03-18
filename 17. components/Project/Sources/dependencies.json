@@ -1,0 +1,8 @@
+{
+	"dependencies": {
+		"norm": {
+			"github": "miyako/norm",
+			"version": "latest"
+		}
+	}
+}
